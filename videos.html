@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Son Conseillé</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+		    background-color: black;
+            color: white;
+        }
+		
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/moi.jpg" alt="Titre de mon site musical" style="max-width: 100%; height: auto;">
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="videos.html">Son Conseillé</a>
+        <a href="events.html">Paroles</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="videos">
+            <h2>Le morceau Drill que je vous conseille</h2>
+            <iframe width="560" height="315" src="https://youtube.com/embed/NBSv8fzNh2E" frameborder="0" allowfullscreen></iframe>
+			<h2>Le morceau Sad que je vous conseils</h2>
+            <iframe width="560" height="315" src="https://youtube.com/embed/OQ_tFV8jqDU" frameborder="0" allowfullscreen></iframe>
+		    <h2>Le morceau Love que je vous conseils</h2>
+            <iframe width="560" height="315" src="https://youtube.com/embed/nmHSjqPnU38" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </div>
+
+    <footer>
+       <p>&copy; 2024 Tintin 04 - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
